@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="lazy_input_correction" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Lazy Input Correction</name>
+	<description>Properly capitalizes input fields and trims whitespace.</description>
+	<repo type="github">https://github.com/lewiswharf/lazy_input_correction</repo>
+	<url type="discuss">http://symphony-cms.com/discuss/thread/81674/</url>
+	<types>
+		<type>Events</type>
+	</types>
+	<authors>
+		<author>
+			<name github="lewiswharf" symphony="Lewis">Mark Lewis</name>
+			<website>http://casadelewis.com</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="0.1" date="2011-12-09" min="2.2" />
+	</releases>
+</extension>
