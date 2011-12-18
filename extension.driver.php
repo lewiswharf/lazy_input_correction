@@ -30,8 +30,8 @@
 		}
 
 		public function __filterInput($context) {
-			$section = new Section();
-			$section->set('id', $context['event']::getSource());
+			$section = new Section(Symphony::Engine());
+			$section->set('id', $context['event']->getSource());
 
 			$section_fields_schema = $section->fetchFieldsSchema();
 
