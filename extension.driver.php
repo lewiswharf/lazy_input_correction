@@ -5,8 +5,8 @@
 		public function about() {
 			return array(
 				'name'			=> 'Lazy Input Correction',
-				'version'		=> '0.1',
-				'release-date'	=> '2011-12-09',
+				'version'		=> '1.0',
+				'release-date'	=> '2011-12-18',
 				'author'		=> array(
 					'name'			=> 'Mark Lewis',
 					'website'		=> 'http://casadelewis.com',
