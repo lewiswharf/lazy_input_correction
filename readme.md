@@ -2,9 +2,9 @@
 
 Checks input fields for poor capitalization.  User input that is all lowercase or all uppercase will be properly capitalized with the first letter capital. Extra whitespace around input will also be removed.
 
-- Version: 0.1
+- Version: 1.01
 - Author: Mark Lewis <mark@casadelewis.com>
-- Build Date: 09 December 2011
+- Build Date: 06 January 2012
 - Requirements: Symphony 2.2
 
 ### What's being checked
@@ -31,4 +31,6 @@ If the first letter of a word is the capital and the last letter of that word is
 
 ##History
 
+- 1.01 Fixed Section bug. Section class was missing.
+- 1.0 Public release
 - 0.1 Initial version
