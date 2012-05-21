@@ -4,19 +4,6 @@
 
 	class Extension_lazy_input_correction extends Extension {
 		
-		public function about() {
-			return array(
-				'name'			=> 'Lazy Input Correction',
-				'version'		=> '1.01',
-				'release-date'	=> '2012-01-06',
-				'author'		=> array(
-					'name'			=> 'Mark Lewis',
-					'website'		=> 'http://casadelewis.com',
-					'email'			=> 'mark@casadelewis.com'
-				)
-			);
-		}
-		
 	/*-------------------------------------------------------------------------
 		Delegates:
 	-------------------------------------------------------------------------*/
